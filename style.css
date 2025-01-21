@@ -100,6 +100,39 @@
 
 /* media query */
 
+/* query for mid-device */
+
+@media screen and (max-width: 976px){
+
+    /* common style */
+
+    .section-margin{
+        margin-left: 70px;
+        margin-right: 20px;
+    }
+    /* navbar */
+
+    .nav-img-text img{
+        width: 40px;
+        height: 40px;
+    }
+    
+    .nav-img-text h1{
+        font-size: 22px;
+    }
+
+    .nav-btn{
+        border-radius: 12px;
+        background: rgb(254, 163, 1);
+        padding: 10px 30px;
+        border: none;
+        color: rgb(255, 255, 255);
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+}
+
     /* query for phone */
 
 @media screen and (max-width: 576px){
@@ -142,35 +175,4 @@
     }
 }
 
- /* query for phone */
-
- @media screen and (max-width: 976px){
-
-    /* common style */
-
-    .section-margin{
-        margin-left: 70px;
-        margin-right: 20px;
-    }
-    /* navbar */
-
-    .nav-img-text img{
-        width: 40px;
-        height: 40px;
-    }
-    
-    .nav-img-text h1{
-        font-size: 22px;
-    }
-
-    .nav-btn{
-        border-radius: 12px;
-        background: rgb(254, 163, 1);
-        padding: 10px 30px;
-        border: none;
-        color: rgb(255, 255, 255);
-        font-size: 16px;
-        font-weight: 500;
-    }
-
-}
+ 
