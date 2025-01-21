@@ -2,7 +2,175 @@
     margin: 0;
     padding: 0;
 }
-
+/* common style */
 .quicksand{
     font-family: "Quicksand", serif;
-  }
+}
+
+.body{
+    padding-top: 12px;
+    padding-bottom: 20px;
+}
+
+.section-margin{
+    margin-left: 130px;
+    margin-right: 130px;
+}
+
+
+/* navbar style */
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-img-text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-img-text img{
+    width: 60px;
+    height: 60px;
+    margin-right: 13px;
+}
+
+.nav-img-text h1{
+    color: rgb(17, 17, 17);
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.nav-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-menu li{
+    list-style: none;
+}
+
+.nav-menu a{
+    color: rgb(17, 17, 17);
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+#home{
+    color: rgb(254, 163, 1);
+}
+
+#about{
+    color: rgb(1, 172, 253);
+}
+
+#facilities{
+    color: rgb(5, 212, 223);
+}
+
+#admission{
+    color: rgb(93, 88, 239);
+}
+
+.nav-btn{
+    border-radius: 12px;
+    background: rgb(254, 163, 1);
+    padding: 15px 50px;
+    border: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#menu-icon{
+    display: none;
+}
+
+.hr-line{
+    display: none;
+}
+
+
+
+
+/* media query */
+
+    /* query for phone */
+
+@media screen and (max-width: 576px){
+
+    /* common style */
+
+    .section-margin{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    /* navbar */
+
+    .nav-img-text img{
+        width: 40px;
+        height: 40px;
+    }
+    
+    .nav-img-text h1{
+        display: none;
+    }
+
+    .nav-menu{
+        display: none;
+    }
+
+    .nav-btn{
+        display: none;
+    }
+    
+    #menu-icon{
+        display: block;
+        font-size: 25px;
+        margin-right: 20px;
+    }
+
+    .hr-line{
+        display: block;
+        margin-top: 12px;
+        border: 1px solid rgb(254, 163, 1);
+    }
+}
+
+ /* query for phone */
+
+ @media screen and (max-width: 976px){
+
+    /* common style */
+
+    .section-margin{
+        margin-left: 70px;
+        margin-right: 20px;
+    }
+    /* navbar */
+
+    .nav-img-text img{
+        width: 40px;
+        height: 40px;
+    }
+    
+    .nav-img-text h1{
+        font-size: 22px;
+    }
+
+    .nav-btn{
+        border-radius: 12px;
+        background: rgb(254, 163, 1);
+        padding: 10px 30px;
+        border: none;
+        color: rgb(255, 255, 255);
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+}
