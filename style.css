@@ -189,11 +189,12 @@
 
 .curriculam-cart{
     margin-top: 70px;
+    width: 100%;
     box-sizing: border-box;
     border: 0.94px solid rgb(222, 245, 255);
     border-radius: 18.86px;
     box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
-    padding: 60px 40px;
+    padding: 30px 20px;
 }
 
 #cart-1{
@@ -201,7 +202,7 @@
 }
 
 .curriculam-cart img{
-    width: 100px;
+    width: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -210,7 +211,7 @@
 
 .curriculam-cart h1{
     color: rgb(32, 32, 32);
-    font-size: 24.52px;
+    font-size: 22px;
     font-weight: 700;
     text-align: center;
     margin-top: 25px;
