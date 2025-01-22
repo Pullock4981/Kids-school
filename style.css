@@ -280,7 +280,7 @@
 .stories{
     margin-top: 50px;
     padding-bottom: 40px;
-    background: linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 50%);
+    background: linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
 }
 
 .stories-heading h1{
