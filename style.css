@@ -262,7 +262,6 @@
     height: 60px;
     border-radius: 100%;
     background: rgb(254, 163, 1);
-    /* padding: 20px; */
     color: white;
     font-size: 30px;
 }
@@ -271,6 +270,171 @@
     margin-left: 20px;
     margin-top: 16px;
 }
+
+/* stories section style */
+
+.stories{
+    margin-top: 50px;
+}
+
+.stories-heading h1{
+    color: rgb(0, 0, 0);
+    font-size: 46px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.stories-container{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+}
+
+.story-line-1{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+}
+
+.story-line-1 img{
+    border-radius: 10px 10px 0 0;
+    height: 330px;
+}
+
+.c-btn{
+    border-radius: 47.93px;
+    padding: 8px;
+    width: 174.51px;
+    text-align: center;
+    margin-left: 30px;
+    position: absolute;
+    top: 310px;
+}
+
+.c-btn-story{
+    border-radius: 47.93px;
+    padding: 8px;
+    width: 174.51px;
+    text-align: center;
+    margin-left: 30px;
+    position: absolute;
+    top: 153px;
+}
+
+#c-btn-1{
+    background: rgb(60, 216, 232);
+    color: rgb(255, 255, 255);
+    font-size: 15.34px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+#c-btn-2{
+    background: rgb(149, 178, 38);
+    color: rgb(255, 255, 255);
+    font-size: 15.34px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+#c-btn-3{
+    background: rgb(93, 88, 240);
+    color: rgb(255, 255, 255);
+    font-size: 15.34px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+#c-btn-4{
+    background: rgb(254, 163, 1);
+    color: rgb(255, 255, 255);
+    font-size: 15.34px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+#c-btn-5{
+    background: rgb(1, 172, 253);
+    color: rgb(255, 255, 255);
+    font-size: 15.34px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.story-text{
+    padding-left: 30px;
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.story-text h1{
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.story-text p{
+    color: rgb(102, 102, 102);
+    font-size: 15.34px;
+    font-weight: 500;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.little-story-line{
+    display: flex;
+    width: 50%;
+    gap: 10px;
+}
+
+.short-story-1{
+    display: flex;
+    flex-direction: column;
+}
+
+.story{
+    display: flex;
+    flex-direction: column;
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    margin-bottom: 10px;
+    position: relative;
+    
+}
+
+.story h2{
+    color: rgb(0, 0, 0);
+    font-size: 15.34px;
+    font-weight: 700;
+    text-align: left;
+    margin-left: 40px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+
+.story img{
+    border-radius: 10px 10px 0 0;
+    height: 170px;
+}
+
+.view-all-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+
 
 
 
@@ -342,6 +506,20 @@
         padding: 15px 40px;
         font-size: 18px;
     }
+
+    /* stories */
+/* 
+    .stories-container{
+        flex-direction: column;
+    }
+
+    .story-line-1{
+        width: 100%;
+    }
+
+    .little-story-line{
+        width: 100%;
+    } */
 
 }
 
@@ -471,7 +649,59 @@
         display: none;
     }
 
-    
+    /* stories */
+
+
+    .stories-heading h1{
+        font-size: 26px;
+    }
+
+    .story-line-1{
+        display: none;
+    }
+
+    .little-story-line{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .short-story-1,
+     .short-story-2{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    .c-btn-story{
+        width: 50%;
+    }
+
+    .story{
+        width: 98%;
+    }
+
+    .story h2{
+        font-size: 9px;
+    }
+
+    #c-btn-2{
+        font-size: 9px;
+    }
+
+    #c-btn-3{
+        font-size: 9px;
+    }
+
+    #c-btn-4{
+        font-size: 9px;
+    }
+
+    #c-btn-5{
+        font-size: 9px;
+    }
+
+
 
 }
 
